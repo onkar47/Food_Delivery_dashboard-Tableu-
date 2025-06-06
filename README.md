@@ -7,10 +7,11 @@ This project presents a comprehensive **Food Delivery Performance Dashboard** bu
 ## 📊 Dashboard Overview
 
 ### 1. Operational Insights
-- **MoM Orders & Revenue Growth**
-- **City-wise Cancellation Rates**
-- **Delivery Partner Efficiency**
-- **Average Delivery Time by City**
+- **Delivery Time Distribution**
+- **Top Restaurants by Orders & Revenue**
+- **Order Hour Heatmap**
+- **Cuisine Popularity**
+- **Delivery Partner Split**
 
 **📸 Screenshot:**
 ![Operational Insights](./Operational%20Insights.png)
@@ -29,12 +30,10 @@ This project presents a comprehensive **Food Delivery Performance Dashboard** bu
 ---
 
 ### 3. Additional Insights
-- **Delivery Time Distribution**
-- **Top Restaurants by Orders & Revenue**
-- **Order Hour Heatmap**
-- **Cuisine Popularity**
-- **Delivery Partner Split**
-
+- **MoM Orders & Revenue Growth**
+- **City-wise Cancellation Rates**
+- **Delivery Partner Efficiency**
+- **Average Delivery Time by City**
 **📸 Screenshot:**
 ![Additional Insights](./additional%20insights.png)
 
@@ -57,4 +56,25 @@ This project presents a comprehensive **Food Delivery Performance Dashboard** bu
 ---
 
 ## 📁 Repository Structure
+📦Food-Delivery-Dashboard
+ ┣ 📊 Tableau Workbooks (.twbx)
+ ┣ 📁 Sample Data (.csv/.xlsx)
+ ┣ 📁 Screenshots
+ ┃ ┣ Operational Insights.png
+ ┃ ┣ Executive summary Dashboard.png
+ ┃ ┗ Additional insights.png
+ ┗ 📄 README.md
+
+## 🔍 How to Use
+Clone the repository.
+Open the .twbx file in Tableau Desktop.
+Load the sample data if not already embedded.
+Interact with filters to explore insights.
+
+## 💡 Future Improvements
+Add real-time data using Tableau Public + Web scraping
+Include user segmentation and churn prediction
+Build a dashboard for marketing campaign performance
+
+
 
